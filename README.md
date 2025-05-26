@@ -104,7 +104,7 @@ Understand and implement a system where an AI agent processes user requests, int
 
 ### 4\. Eliza AI Agent: Setup & Configuration 🤖
 
-  * In the `Eliza-Twitter-Chainlink-Functions-soneium` project directory.
+  * In the `Eliza-Twitter-Chainlink-Functions-Soneium` project directory.
   * Ensure Node.js v23+ is installed.
   * Update/verify `.env` with:
     ```env
