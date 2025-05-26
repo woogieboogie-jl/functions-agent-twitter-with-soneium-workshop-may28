@@ -84,8 +84,8 @@ Understand and implement a system where an AI agent processes user requests, int
   * **DON Hosted Secrets (Supabase API Key)**:
       * Clone the repository:
         ```bash
-        git clone https://github.com/QingyangKong/Eliza-Twitter-Chainlink-Functions-soneium.git
-        cd Eliza-Twitter-Chainlink-Functions-soneium
+        git clone https://github.com/woogieboogie-jl/Eliza-Twitter-Chainlink-Functions-Soneium.git
+        cd Eliza-Twitter-Chainlink-Functions-Soneium
         pnpm install
         ```
       * Configure `.env` (copy from `.env.example`):
