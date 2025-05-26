@@ -2,13 +2,20 @@
 cache/
 out/
 
+# Node Modules
+/node_modules
+
 # Ignores development broadcast logs
 !/broadcast
 /broadcast/*/31337/
 /broadcast/**/dry-run/
+
+# Ignore Eliza-Specific Git (Repo contained Separately)
+/Eliza-Twitter-Chainlink-Functions-soneium/
 
 # Docs
 docs/
 
 # Dotenv file
 .env
+

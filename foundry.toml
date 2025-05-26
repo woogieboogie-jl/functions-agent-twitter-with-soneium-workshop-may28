@@ -3,4 +3,12 @@ src = "src"
 out = "out"
 libs = ["lib"]
 
+[rpc_endpoints]
+# The RPC URLs are modified versions of the default for testing initialization.
+mainnet = "https://eth.merkle.io" # Different API key.
+avalanche_fuji = "wss://avalanche-fuji-c-chain-rpc.publicnode.com"
+optimism_sepolia = "https://sepolia.optimism.io/" # Adds a trailing slash.
+arbitrum_sepolia = "https://sepolia-rollup.arbitrum.io/rpc/" # Adds a trailing slash.
+soneium_minato = "https://rpc.minato.soneium.org"
+
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
