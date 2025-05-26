@@ -4,10 +4,10 @@ A guide to building and deploying a hybrid Web2/Web3 application where an AI age
 
 
 > 📝 **Note:**
-> This workshop guide is based on materials from [https://www.youtube.com/watch?v=kqNDZS9xWVE](https://www.youtube.com/watch?v=kqNDZS9xWVE) and [https://cll-devrel.gitbook.io/soneium-workshop-elizaos+functions+twit/4.-prepare-don-hosted-secrets](https://cll-devrel.gitbook.io/soneium-workshop-elizaos+functions+twit/4.-prepare-don-hosted-secrets) with only minor changes & Korean translation.
+> This workshop guide is based on materials from [Soneium Workshop - Youtube](https://www.youtube.com/watch?v=kqNDZS9xWVE) and Frank's [Guide](https://cll-devrel.gitbook.io/soneium-workshop-elizaos+functions+twit/4.-prepare-don-hosted-secrets) with only minor changes & Korean translation.
 >
-> * Original English Version: [https://woogieboogie-jl.gitbook.io/functions-agent-twitter-with-soneium-workshop](https://woogieboogie-jl.gitbook.io/functions-agent-twitter-with-soneium-workshop)
-> * Korean Version: [https://woogieboogie-jl.gitbook.io/functions-agent-twitter-with-soneium-workshop/kor](https://woogieboogie-jl.gitbook.io/functions-agent-twitter-with-soneium-workshop/kor)
+> * [Original English Version](https://woogieboogie-jl.gitbook.io/functions-agent-twitter-with-soneium-workshop)
+> * [Korean Version](https://woogieboogie-jl.gitbook.io/functions-agent-twitter-with-soneium-workshop/kor)
 
 -----
 
@@ -47,6 +47,7 @@ Understand and implement a system where an AI agent processes user requests, int
     | '1-month premium' | 'Ce9OdVGMFdyr' |
     | '50 discount'    | 'Nbbut8vlkKe9' |
     | '100 discount'   | 'hTXcVopv1Wov' |
+    
     *These values must match the logic in `GetGift.sol`.*
   * **RLS Policy**: For the `Gifts` table, create a new policy using the "Enable Read Access For All Users" template (a `SELECT` policy).
   * **API Info**: Navigate to `Project Settings` \> `API`. Note your **Project URL** and **`anon` `public` API Key**.
